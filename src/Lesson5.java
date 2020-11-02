@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Lesson5 {
-        public static final int CARS_QUANTITY = 4;
+        public static final int CARS_QUANTITY = 8;
 
         public static void main (String[] args) {
             new Competition(CARS_QUANTITY);
